@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AED2AB911DE612F50026E920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED2AB901DE612F50026E920 /* AppDelegate.swift */; };
+		AED2AB931DE612F50026E920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED2AB921DE612F50026E920 /* ViewController.swift */; };
+		AED2AB961DE612F50026E920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED2AB941DE612F50026E920 /* Main.storyboard */; };
+		AED2AB981DE612F50026E920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED2AB971DE612F50026E920 /* Assets.xcassets */; };
+		AED2AB9B1DE612F50026E920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED2AB991DE612F50026E920 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AED2AB8D1DE612F50026E920 /* ZastepstwaVLO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZastepstwaVLO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED2AB901DE612F50026E920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AED2AB921DE612F50026E920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AED2AB951DE612F50026E920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AED2AB971DE612F50026E920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AED2AB9A1DE612F50026E920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AED2AB9C1DE612F50026E920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AED2AB8A1DE612F50026E920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AED2AB841DE612F50026E920 = {
+			isa = PBXGroup;
+			children = (
+				AED2AB8F1DE612F50026E920 /* ZastepstwaVLO */,
+				AED2AB8E1DE612F50026E920 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AED2AB8E1DE612F50026E920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AED2AB8D1DE612F50026E920 /* ZastepstwaVLO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AED2AB8F1DE612F50026E920 /* ZastepstwaVLO */ = {
+			isa = PBXGroup;
+			children = (
+				AED2AB901DE612F50026E920 /* AppDelegate.swift */,
+				AED2AB921DE612F50026E920 /* ViewController.swift */,
+				AED2AB941DE612F50026E920 /* Main.storyboard */,
+				AED2AB971DE612F50026E920 /* Assets.xcassets */,
+				AED2AB991DE612F50026E920 /* LaunchScreen.storyboard */,
+				AED2AB9C1DE612F50026E920 /* Info.plist */,
+			);
+			path = ZastepstwaVLO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AED2AB8C1DE612F50026E920 /* ZastepstwaVLO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED2AB9F1DE612F50026E920 /* Build configuration list for PBXNativeTarget "ZastepstwaVLO" */;
+			buildPhases = (
+				AED2AB891DE612F50026E920 /* Sources */,
+				AED2AB8A1DE612F50026E920 /* Frameworks */,
+				AED2AB8B1DE612F50026E920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZastepstwaVLO;
+			productName = ZastepstwaVLO;
+			productReference = AED2AB8D1DE612F50026E920 /* ZastepstwaVLO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AED2AB851DE612F50026E920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = KIS;
+				TargetAttributes = {
+					AED2AB8C1DE612F50026E920 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AED2AB881DE612F50026E920 /* Build configuration list for PBXProject "ZastepstwaVLO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AED2AB841DE612F50026E920;
+			productRefGroup = AED2AB8E1DE612F50026E920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AED2AB8C1DE612F50026E920 /* ZastepstwaVLO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AED2AB8B1DE612F50026E920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED2AB9B1DE612F50026E920 /* LaunchScreen.storyboard in Resources */,
+				AED2AB981DE612F50026E920 /* Assets.xcassets in Resources */,
+				AED2AB961DE612F50026E920 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AED2AB891DE612F50026E920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED2AB931DE612F50026E920 /* ViewController.swift in Sources */,
+				AED2AB911DE612F50026E920 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AED2AB941DE612F50026E920 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED2AB951DE612F50026E920 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AED2AB991DE612F50026E920 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED2AB9A1DE612F50026E920 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AED2AB9D1DE612F50026E920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AED2AB9E1DE612F50026E920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AED2ABA01DE612F50026E920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZastepstwaVLO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.agh.kis.ZastepstwaVLO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AED2ABA11DE612F50026E920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZastepstwaVLO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.agh.kis.ZastepstwaVLO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AED2AB881DE612F50026E920 /* Build configuration list for PBXProject "ZastepstwaVLO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED2AB9D1DE612F50026E920 /* Debug */,
+				AED2AB9E1DE612F50026E920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED2AB9F1DE612F50026E920 /* Build configuration list for PBXNativeTarget "ZastepstwaVLO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED2ABA01DE612F50026E920 /* Debug */,
+				AED2ABA11DE612F50026E920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AED2AB851DE612F50026E920 /* Project object */;
+}
