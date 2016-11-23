@@ -55,20 +55,25 @@ class SubstitutionsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 3
+        let teacherDict = Array(substitutions.values)[section] as! [String:String]
+        return teacherDict.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SubstitutionCell", for: indexPath)
-
-        cell.textLabel?.text = "Klasa ma wolne"
-
+        let teacherDict = Array(substitutions.values)[indexPath.section] as! [String:String]
+        let lesson = Array(teacherDict.keys)[indexPath.row]
+        let message = Array(teacherDict.values)[indexPath.row]
+        cell.textLabel?.text = "Lekcja \(lesson)"
+        cell.detailTextLabel?.text = message
         return cell
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Alamakota"
+        return Array(substitutions.keys)[section]
+//        return "a"
+//        return substitutions.keys[section]
     }
     
 
