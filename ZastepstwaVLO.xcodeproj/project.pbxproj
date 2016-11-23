@@ -12,6 +12,7 @@
 		AED2AB961DE612F50026E920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED2AB941DE612F50026E920 /* Main.storyboard */; };
 		AED2AB981DE612F50026E920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED2AB971DE612F50026E920 /* Assets.xcassets */; };
 		AED2AB9B1DE612F50026E920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED2AB991DE612F50026E920 /* LaunchScreen.storyboard */; };
+		AED2ABA31DE6138E0026E920 /* SubstitutionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED2ABA21DE6138E0026E920 /* SubstitutionsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AED2AB971DE612F50026E920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED2AB9A1DE612F50026E920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AED2AB9C1DE612F50026E920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED2ABA21DE6138E0026E920 /* SubstitutionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubstitutionsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				AED2AB901DE612F50026E920 /* AppDelegate.swift */,
 				AED2AB921DE612F50026E920 /* ViewController.swift */,
 				AED2AB941DE612F50026E920 /* Main.storyboard */,
+				AED2ABA21DE6138E0026E920 /* SubstitutionsTableViewController.swift */,
 				AED2AB971DE612F50026E920 /* Assets.xcassets */,
 				AED2AB991DE612F50026E920 /* LaunchScreen.storyboard */,
 				AED2AB9C1DE612F50026E920 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				AED2AB931DE612F50026E920 /* ViewController.swift in Sources */,
 				AED2AB911DE612F50026E920 /* AppDelegate.swift in Sources */,
+				AED2ABA31DE6138E0026E920 /* SubstitutionsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
