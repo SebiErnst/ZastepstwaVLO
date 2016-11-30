@@ -72,8 +72,6 @@ class SubstitutionsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return Array(substitutions.keys)[section]
-//        return "a"
-//        return substitutions.keys[section]
     }
     
 
