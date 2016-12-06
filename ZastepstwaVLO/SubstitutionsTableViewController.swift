@@ -49,17 +49,14 @@ class SubstitutionsTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return substitutions.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         let teacherDict = Array(substitutions.values)[section] as! [String:String]
         return teacherDict.count
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SubstitutionCell", for: indexPath)
         let teacherDict = Array(substitutions.values)[indexPath.section] as! [String:String]
